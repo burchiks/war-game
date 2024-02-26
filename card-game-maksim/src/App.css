@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  border: 3px solid green;
+  margin: 50px auto;
+}
+
+.wrapper .login-page {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.login-page .title {
+  color: #5a9ad4;
+}
+
+.login-page .name-input {
+  border: 2px solid green;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  padding: 3px 10px;
+}
+.name-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.login-page .start-btn {
+  background-color: #5b9ad4;
+  color: antiquewhite;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.login-page .start-btn:active {
+  background-color: #7660f1;
+  color: #696262;
+}
+
+.wrapper .game {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game .playerName {
+  color: darkslateblue;
+}
+
+.game .next-btn {
+  background-color: #5b9ad4;
+  color: antiquewhite;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.game .next-btn:active {
+  background-color: #7660f1;
+  color: #696262;
+}
+
+.game .card {
+  width: 120px;
+  height: 170px;
+}
+
+.wrapper .results {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.results .score {
+  color: darkslateblue;
+}
+
+.results .again-btn {
+  background-color:  #5a9ad4;
+  color: antiquewhite;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+}
